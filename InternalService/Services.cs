@@ -26,6 +26,13 @@ namespace PokemonAPI.InternalServices
             }
         }
 
+        /// <summary>
+        /// Get Pokemon filtered by type and gen number, allow null values to return results filtered by both, either, or none
+        /// Open reader - execute stored proc - map values to model - return list of model
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="genNum"></param>
+        /// <returns></returns>
         public List<Pokemon> GetPokemon(string type, int genNum)
         {
             List<Pokemon> pokemon = new List<Pokemon>();
@@ -88,6 +95,11 @@ namespace PokemonAPI.InternalServices
             return pokemon;
         }
 
+        /// <summary>
+        /// Get all pokemon types and their hex color, used for filtering and assigning colors
+        /// Open reader - execute stored proc - map values to model - return list of model
+        /// </summary>
+        /// <returns></returns>
         public List<Type> GetTypes()
         {
             List<Type> types = new List<Type>();
@@ -132,6 +144,11 @@ namespace PokemonAPI.InternalServices
             return types;
         }
 
+        /// <summary>
+        /// Get all pokemon generations, their number and name - used for filtering
+        /// Open reader - execute stored proc - map values to model - return list of model
+        /// </summary>
+        /// <returns></returns>
         public List<Generation> GetRegions()
         {
             List<Generation> regions = new List<Generation>();
@@ -176,6 +193,12 @@ namespace PokemonAPI.InternalServices
             return regions;
         }
 
+        /// <summary>
+        /// Get a chart specified by stored proc passed as parameter, model is always datamodel
+        /// Open reader - execute stored proc - map values to model - return list of model
+        /// </summary>
+        /// <param name="sproc"></param>
+        /// <returns></returns>
         public List<DataModel> GetChart(string sproc)
         {
             List<DataModel> data = new List<DataModel>();
@@ -219,7 +242,6 @@ namespace PokemonAPI.InternalServices
 
             return data;
         }
-
 
     }
 

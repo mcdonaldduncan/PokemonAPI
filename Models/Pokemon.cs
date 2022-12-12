@@ -43,16 +43,5 @@ namespace PokemonAPI.Models
         [JsonPropertyName("Region_Name")]
         public string RegionName { get; set; }
 
-
-        //public Pokemon(List<string> props)
-        //{
-        //    int i = 0;
-        //    ID = props[i++];
-        //    Name = props[i++];
-        //    PrimaryType = props[i++];
-        //    SecondaryType = props[i++];
-
-        //}
-
     }
 }
