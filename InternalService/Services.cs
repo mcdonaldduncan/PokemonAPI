@@ -1,8 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Data;
+using PokemonAPI.Models;
+using Type = PokemonAPI.Models.Type;
 
-namespace PokemonAPI.Services
+namespace PokemonAPI.InternalServices
 {
     public class Services
     {

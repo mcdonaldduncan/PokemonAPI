@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PokemonAPI.Models;
+using PokemonAPI.InternalServices;
+using Type = PokemonAPI.Models.Type;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

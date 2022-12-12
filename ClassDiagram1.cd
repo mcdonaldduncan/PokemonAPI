@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="PokemonAPI.Controllers.PokemonController">
+    <Position X="12.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAAAAAABAIAAAAAAAAAAAAAAAAAAAEIAAAAA=</HashCode>
+      <FileName>Controllers\PokemonController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.InternalServices.Error">
+    <Position X="4.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InternalService\Error.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.InternalServices.Services">
+    <Position X="0.5" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAACAQAAIAAAAAAAAAAAAAAAAAAAEAAAgCA=</HashCode>
+      <FileName>InternalService\Services.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.Models.DataModel">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Models\DataModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.Models.Generation">
+    <Position X="2.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Generation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.Models.Type">
+    <Position X="5.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.Models.Pokemon">
+    <Position X="8" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAQAAAAQAAQBQIEAAAAAAgAAAgAIAAA=</HashCode>
+      <FileName>Models\Pokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonAPI.Program">
+    <Position X="14.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
