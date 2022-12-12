@@ -2,14 +2,14 @@
 using System;
 using System.Data;
 
-namespace PokemonAPI
+namespace PokemonAPI.Services
 {
     public class Services
     {
         List<Error> Errors = new List<Error>();
-        
+
         private string SQLConnString { get; set; } = string.Empty;
-        
+
         public void PrepareSQLConnectionString()
         {
             if (SQLConnString == string.Empty)
@@ -48,7 +48,7 @@ namespace PokemonAPI
                         {
                             Pokemon temp = new Pokemon();
                             int i = 0;
-                            
+
                             temp.ID = (int)reader[i++];
                             temp.PokedexNumber = (int)reader[i++];
                             temp.Name = (string)reader[i++];
@@ -62,12 +62,12 @@ namespace PokemonAPI
                             temp.Speed = (int)reader[i++];
                             temp.GenerationNumber = (int)reader[i++];
                             temp.RegionName = (string)reader[i++];
-                            
+
                             pokemon.Add(temp);
                         }
 
                         reader.Close();
-                        
+
                     }
 
                     conn.Close();
@@ -109,7 +109,7 @@ namespace PokemonAPI
                             Type temp = new Type();
                             temp.Name = (string)reader["Name"];
                             temp.HexColor = (string)reader["HexColor"];
-                            types.Add(temp);    
+                            types.Add(temp);
                         }
 
                         reader.Close();
@@ -184,7 +184,7 @@ namespace PokemonAPI
                 {
                     conn.Open();
 
-                    
+
 
                     using (var command = new SqlCommand(sproc, conn))
                     {
@@ -220,5 +220,5 @@ namespace PokemonAPI
 
 
     }
-    
+
 }

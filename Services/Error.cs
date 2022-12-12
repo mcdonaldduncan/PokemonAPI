@@ -1,4 +1,4 @@
-﻿namespace PokemonAPI
+﻿namespace PokemonAPI.Services.Services
 {
     public class Error
     {

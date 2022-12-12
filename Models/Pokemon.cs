@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace PokemonAPI
+namespace PokemonAPI.Models
 {
     public class Pokemon
     {
@@ -51,7 +51,7 @@ namespace PokemonAPI
         //    Name = props[i++];
         //    PrimaryType = props[i++];
         //    SecondaryType = props[i++];
-            
+
         //}
 
     }

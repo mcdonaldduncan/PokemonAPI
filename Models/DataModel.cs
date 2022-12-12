@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace PokemonAPI
+namespace PokemonAPI.Models
 {
     public class DataModel
     {
